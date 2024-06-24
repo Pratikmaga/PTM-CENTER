@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(67, 185, 67);
+    padding: 20px;
+    height: auto;
+}  
+nav .container a img{
+    height: 100px;
+    width: 100px;
+}
+nav .box ul{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+    list-style: none;
+    font-size: 25px;
+    padding-top: 25px;
+}
+nav .box ul li a{
+    text-decoration: none;
+    color: rgb(34, 109, 34);
+}
+nav .box ul li a:hover{
+    background-color: rgb(87, 204, 33);
+    border: 2px solid rgb(25, 26, 25);
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: underline;
+    color: rgb(38, 110, 23);
+}
+.content{
+    height: 500px;
+}
+.content .img img{
+    padding-left: 45px;
+    padding-top: 50px;
+ }
+.content .head{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.content .head h1{
+    font-size: 35px;
+    color: limegreen;
+    padding-left: 10px;
+}
+.content .head p{
+    font-size: 15px;
+    color: black;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blogs h1{
+    font-size: 50px;
+    color: black;
+    background: transparent;
+    text-align: center;
+}
+.blogs{
+    /* background-color: rgb(30, 230, 30); */
+    height: auto;
+    background-image:url(/image/2.jpeg) ;
+}
+.blogs h2{
+    text-align: center;
+    background: transparent;
+    font-size: 20px;
+}
+.blogs .blog box{
+    height: 150px;
+    width: 200px;
+}
+.blogs .blog{
+    display: flex;
+    flex-wrap: wrap;
+    background: transparent;
+    justify-content: center;
+    margin-top: 30px;
+}
+.blogs .blog .box{
+    height: 200px;
+    width: 250px;
+    border: 2px solid black;
+    margin: 25px;
+    text-align: center;
+}
+.blogs .blog .box h2{
+    background: transparent;
+    color: rgb(15, 9, 9);
+}
+.blogs .blog .box p{
+    background: transparent;
+}
+.blogs .blog .box button{
+    padding: 5px;
+    background-color: rgba(3, 49, 5, 0.788);
+    color: black;
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+    border: none;
+}
+#contact h1 {
+    text-align: center;
+    background: transparent;
+    font-size: 4rem;
+    margin-top: 30px;
+}
+#contact .main {
+    display: flex;
+    justify-content: space-around;
+    background: transparent;
+    margin-top: 35px;
+}
+#contact .main .form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(41, 94, 143);
+    height: 425px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+}
+#contact .main .form label {
+    font-size: 20px;
+}
+#contact .main .form button{
+    margin-top: 25px;
+    background-color: rgb(94, 126, 143);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+footer .home .head a{
+    font-size: 40px;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(44, 37, 37);
+}
+footer .home{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    column-gap: 100px;
+    /* background-color: rgb(27, 27, 27); */
+    height: 300px;
+    flex-wrap: wrap;
+}
+footer .home .about{
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(44, 37, 37);
+}
+
+
+.center {
+    text-align: center;
+}
